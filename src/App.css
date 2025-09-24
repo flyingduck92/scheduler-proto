@@ -11,7 +11,7 @@
 
 /* Fix Agenda view datepicker dropdown being cut off */
 .e-quick-popup-wrapper.e-lib.e-popup.e-control.e-popup-open {
-  z-index: 20 !important;
+  position: -webkit-sticky;
 }
 
 /* Fix Agenda view datepicker dropdown being cut off */
