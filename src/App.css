@@ -8,3 +8,22 @@
 @import "../node_modules/@syncfusion/ej2-popups/styles/tailwind3.css";
 @import "../node_modules/@syncfusion/ej2-splitbuttons/styles/tailwind3.css";
 @import "../node_modules/@syncfusion/ej2-react-schedule/styles/tailwind3.css";
+
+/* Fix Agenda view datepicker dropdown being cut off */
+.e-quick-popup-wrapper.e-lib.e-popup.e-control.e-popup-open {
+  z-index: 20 !important;
+}
+
+/* Fix Agenda view datepicker dropdown being cut off */
+.e-header-popup.e-lib.e-popup.e-control.e-popup-open {
+  position: fixed;
+  z-index: 20;
+}
+
+/* fixed selected bg-color issue */
+.e-calendar td.e-selected span.e-day {
+  background-color: #6366f1 !important;
+  /* Use your primary color */
+  color: #fff !important;
+  border-radius: 8px !important;
+}

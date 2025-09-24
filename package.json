@@ -11,6 +11,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@syncfusion/ej2-react-calendars": "^31.1.21",
     "@syncfusion/ej2-react-schedule": "^31.1.21",
     "@tailwindcss/vite": "^4.1.13",
     "react": "^19.1.1",
