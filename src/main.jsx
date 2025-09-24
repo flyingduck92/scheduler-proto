@@ -7,7 +7,7 @@ import App from './App.jsx'
 import { registerLicense } from '@syncfusion/ej2-base'
 
 // Register the license using the environment variable
-registerLicense(import.meta.env.SYNCFUSION_LICENSE)
+registerLicense(import.meta.env.VITE_SYNCFUSION_LICENSE)
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
